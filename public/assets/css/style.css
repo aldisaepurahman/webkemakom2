@@ -2,16 +2,16 @@
     font-family: Mont SemiBold;
 }
 
-.colorTransparent{
+.navbar{
     background-color: transparent;
 }
 
-.colorTransparent .navbar-brand{
-    color: #000;
+.navbar .navbar-brand{
+    color: #e25985;
 }
 
-.colorTransparent .nav-link{
-    color: #000;
+.navbar .nav-link{
+    color: #e25985;
 }
 
 .backColor{
@@ -116,12 +116,36 @@
     color: #fff;
 }
 
+.divisiLink{
+    text-decoration: none;
+}
+
+.divisiLink:hover{
+    text-decoration: none;
+}
+
+.underlinePurple{
+    border: 2px solid #e259;
+}
+
 #infograph{
     font-family: Mont;
     width: 98.9%;
 }
 
 #information{
+    font-family: Mont;
+}
+
+.nonDiv{
+    font-family: Mont SemiBold;
+}
+
+.history{
+    background-color: #2f3d66;
+    font-family: Mont;
+}
+.undang-undang{
     font-family: Mont;
 }
 
@@ -135,6 +159,15 @@
 
 .headers-purple{
     color: #e259;
+}
+
+.headers-purple:hover{
+    color: #e259;
+    text-decoration: none;
+}
+
+.headers-green{
+    color: #8abeb6;
 }
 
 .infoText{
@@ -156,5 +189,24 @@
 }
 
 .text-white{
+    color: #fff;
+}
+
+.navbar.active {
+    background: #8abeb6;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #fff;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
     color: #fff;
 }

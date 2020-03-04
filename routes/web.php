@@ -18,3 +18,12 @@
 Auth::routes();
 
 Route::get('/', 'KemakomController@index');
+Route::get('/bem', 'KemakomController@bem');
+Route::get('/dpm', 'KemakomController@dpm');
+Route::get('/about', 'KemakomController@about');
+Route::get('/divisi/{div}', 'KemakomController@divisi');
+Route::get('/berita', 'KemakomController@berita');
+Route::get('/event', 'KemakomController@event');
+Route::get('/pixel', 'KemakomController@pixel');
+Route::get('/youtube', 'KemakomController@youtube');
+Route::get('/detail/{konteks}/{id}', 'KemakomController@detail');

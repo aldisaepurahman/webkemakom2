@@ -23,26 +23,30 @@
             <h1 class="display-5 headers-purple">BEM Kemakom</h1>
             <img src="{{ asset('assets/images/KABEM-2.png') }}" class="img-fluid">
         </div>
-        <div class="col-md-5 col-sm-12 col-12 infoText mr-5 pl-5">
+        <div class="col-md-6 col-sm-12 col-12 infoText pl-5">
             <div class="row">
-                <h1 class="display-6 headers-blue">VISI</h1>
-                <p>Menjadikan BEM Kemakom yang aktif dan berdaya juang tinggi dalam 
-                    kinerja sehingga dapat menebar manfaat bagi Kemakom</p>
+                <div class="col-md-12 col-sm-12 col-12">
+                    <h1 class="display-6 headers-blue">VISI</h1>
+                    <p>Menjadikan BEM Kemakom yang aktif dan berdaya juang tinggi dalam 
+                        kinerja sehingga dapat menebar manfaat bagi Kemakom</p>
+                </div>
             </div>
             <div class="row mt-3">
-                <h1 class="display-6 headers-purple">MISI</h1>
-                <ol>
-                    <li>Menciptakan suasana kekeluargaan di internal dan eksternal BEM Kemakom
-                        sehingga mampu mengoptimalkan kerja BEM Kemakom
-                    </li>
-                    <li>Mewujudkan kader yang aktif, berkarakter, religius, dan memiliki daya juang tinggi</li>
-                    <li>Meningkatkan pelayanan BEM Kemakom dalam mengembangkan minat dan bakat mahasiswa Kemakom</li>
-                    <li>Aktif dalam bergerak menyikapi isu internal maupun eksternal</li>
-                    <li>Aktif dalam meningkatkan prestasi dan berkembang dalam bidang akademik maupun non akademik</li>
-                    <li>Menjadikan BEM Kemakom yang lebih informatif dan komunikatif dengan berbagai pihak
-                        baik internal maupun eksternal Kemakom
-                    </li>
-                </ol>
+                <div class="col-md-12 col-sm-12 col-12">
+                    <h1 class="display-6 headers-purple">MISI</h1>
+                    <ol>
+                        <li>Menciptakan suasana kekeluargaan di internal dan eksternal BEM Kemakom
+                            sehingga mampu mengoptimalkan kerja BEM Kemakom
+                        </li>
+                        <li>Mewujudkan kader yang aktif, berkarakter, religius, dan memiliki daya juang tinggi</li>
+                        <li>Meningkatkan pelayanan BEM Kemakom dalam mengembangkan minat dan bakat mahasiswa Kemakom</li>
+                        <li>Aktif dalam bergerak menyikapi isu internal maupun eksternal</li>
+                        <li>Aktif dalam meningkatkan prestasi dan berkembang dalam bidang akademik maupun non akademik</li>
+                        <li>Menjadikan BEM Kemakom yang lebih informatif dan komunikatif dengan berbagai pihak
+                            baik internal maupun eksternal Kemakom
+                        </li>
+                    </ol>
+                </div>
             </div>
         </div>
     </div>
@@ -63,15 +67,19 @@
         </div>
         <div class="col-md-6 col-sm-12 col-12">
             <div class="row">
-                <div class="col">
-                    <h3 class="display-6 headers-purple"><img src="{{ asset('assets/images/DPO.png') }}"> DPO</h3>
+                <div class="col-md-6 col-sm-12 col-12">
+                    <a href="{{ url('/divisi/dpo') }}" class="divisiLink">
+                        <h3 class="display-6 headers-purple"><img src="{{ asset('assets/images/DPO.png') }}"> DPO</h3>
+                    </a>
                     <ul class="unordered">
                         <li>Biro MSDM</li>
                         <li>Biro Litbang</li>
                     </ul>
                 </div>
-                <div class="col">
-                    <h3 class="display-6 headers-purple"><img src="{{ asset('assets/images/DIVROH.png') }}"> DIVROH</h3>
+                <div class="col-md-6 col-sm-12 col-12">
+                    <a href="{{ url('/divisi/divroh') }}" class="divisiLink">
+                        <h3 class="display-6 headers-purple"><img src="{{ asset('assets/images/DIVROH.png') }}"> DIVROH</h3>
+                    </a>
                     <ul class="unordered">
                         <li>Biro Keputrian</li>
                         <li>Biro Syiar</li>
@@ -80,16 +88,20 @@
                 </div>
             </div>
             <div class="row mt-3">
-                <div class="col">
-                    <h3 class="display-6 headers-purple"><img src="{{ asset('assets/images/DIVKOM.png') }}"> DIVKOMTEKINFO</h3>
+                <div class="col-md-6 col-sm-12 col-12">
+                    <a href="{{ url('/divisi/divkomtekinfo') }}" class="divisiLink">
+                        <h3 class="display-6 headers-purple"><img src="{{ asset('assets/images/DIVKOM.png') }}"> DIVKOMTEKINFO</h3>
+                    </a>
                     <ul class="unordered">
                         <li>Biro Teknologi</li>
                         <li>Biro Kreatif</li>
                         <li>Biro Komunikasi</li>
                     </ul>
                 </div>
-                <div class="col">
-                    <h3 class="display-6 headers-purple"><img src="{{ asset('assets/images/DIKLAT.png') }}"> DIVDIKLAT</h3>
+                <div class="col-md-6 col-sm-12 col-12">
+                    <a href="{{ url('/divisi/divdiklat') }}" class="divisiLink">
+                        <h3 class="display-6 headers-purple"><img src="{{ asset('assets/images/DIKLAT.png') }}"> DIVDIKLAT</h3>
+                    </a>
                     <ul class="unordered">
                         <li>Biro Pendidikan</li>
                         <li>Biro Pelatihan</li>
@@ -97,15 +109,19 @@
                 </div>
             </div>
             <div class="row mt-3">
-                <div class="col">
-                    <h3 class="display-6 headers-purple"><img src="{{ asset('assets/images/SOSPOL.png') }}"> DIVADSOSPOL</h3>
+                <div class="col-md-6 col-sm-12 col-12">
+                    <a href="{{ url('/divisi/divadsospol') }}" class="divisiLink">
+                        <h3 class="display-6 headers-purple"><img src="{{ asset('assets/images/SOSPOL.png') }}"> DIVADSOSPOL</h3>
+                    </a>
                     <ul class="unordered">
                         <li>Biro Sosial</li>
                         <li>Biro Kesejahteraan Masyarakat</li>
                     </ul>
                 </div>
-                <div class="col">
-                    <h3 class="display-6 headers-purple"><img src="{{ asset('assets/images/DPMB.png') }}"> DPMB</h3>
+                <div class="col-md-6 col-sm-12 col-12">
+                    <a href="{{ url('/divisi/dpmb') }}" class="divisiLink">
+                        <h3 class="display-6 headers-purple"><img src="{{ asset('assets/images/DPMB.png') }}"> DPMB</h3>
+                    </a>
                     <ul class="unordered">
                         <li>Biro Keolahragaan</li>
                         <li>Biro Keakraban</li>
@@ -131,7 +147,7 @@
                 <div class="row mt-5 mx-auto">
                     <div class="col-md-3 col-sm-6 col-12">
                         <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="{{ asset('assets/images/IMG_5946-1.JPG') }}" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Card title</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -141,7 +157,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-12">
                         <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="{{ asset('assets/images/IMG_5946-1.JPG') }}" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Card title</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -151,7 +167,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-12">
                         <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="{{ asset('assets/images/IMG_5946-1.JPG') }}" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Card title</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -161,7 +177,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6 col-12">
                         <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="{{ asset('assets/images/IMG_5946-1.JPG') }}" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Card title</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
